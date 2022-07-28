@@ -20,4 +20,4 @@ defaults:
       path: ""
     values:
       layout: "default"
-      blog-root: "/Nargang-Tech-Corner"
+      site-root: site.github.baseurl
