@@ -6,7 +6,7 @@ title: Home
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ page.blog-root }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ page.site-root }}{{ post.url }}">{{ post.title }}</a></h2>
       <h4>{{ post.categories }}</h4>
       {{ post.excerpt }}
     </li>
