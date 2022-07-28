@@ -20,4 +20,3 @@ defaults:
       path: ""
     values:
       layout: "default"
-      site-root: site.github.baseurl
