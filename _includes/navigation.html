@@ -1,7 +1,7 @@
 <nav>
   <b>{{ site.name }}</b>
   {% for item in site.data.navigation %}
-    <a href="{{ site.github.baseurl }}{{ item.link }}" style="text-decoration: none;{% if page.url == item.link %} color: red; font-weight: bold;{% else %} color: black;{% endif %}">
+    <a href="{{ site.github.baseurl }}{{ item.link }}" style="text-decoration: none;{% if page.url == item.link %} color: lime; font-weight: bold;{% else %} color: gray;{% endif %}">
       {{ item.name }}
     </a>
   {% endfor %}
