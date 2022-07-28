@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Home
 ---
 <h1>Latest Posts</h1>
@@ -7,7 +6,7 @@ title: Home
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="/Nargang-Tech-Corner{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ page.blog-root }}{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
     </li>
   {% endfor %}
