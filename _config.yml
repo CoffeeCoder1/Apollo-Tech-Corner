@@ -7,6 +7,8 @@ collections:
   authors:
     output: true
 
+title: "Apollo Tech Corner"
+
 defaults:
   - scope:
       path: ""
