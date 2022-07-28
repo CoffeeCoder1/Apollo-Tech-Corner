@@ -7,7 +7,7 @@ collections:
   authors:
     output: true
 
-title: "Apollo Tech Corner"
+name: "Apollo Tech Corner"
 
 defaults:
   - scope:
