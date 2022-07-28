@@ -1,5 +1,5 @@
 ---
 name: CoffeeCoder1
-short-name: Apollo
+alt-name: Apollo
 ---
 Creator and manager of the blog.
