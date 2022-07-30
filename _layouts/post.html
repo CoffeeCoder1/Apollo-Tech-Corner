@@ -9,5 +9,13 @@ layout: default
   - <a href="{{ site.github.baseurl }}{{ author.url }}">{{ author.name }}</a>
 {% endif %}
 </p>
+<p>
+Tags:
+{% for tag in site.tags %}
+    {% if post.tags contains tag.name or tag.name == post.tags %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ tag.url }}">{{ tag.name }}</a>
+    {% endif %}
+{% endfor %}
+</p>
 
 {{ content }}
