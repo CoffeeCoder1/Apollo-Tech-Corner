@@ -6,6 +6,9 @@ plugins:
 collections:
   authors:
     output: true
+  tags:
+    output: true
+    permalink: tag/:title/
 
 name: "Apollo Tech Corner"
 
@@ -21,6 +24,11 @@ defaults:
     values:
       layout: "post"
       permalink: /:categories/:title:output_ext
+  - scope:
+      path: ""
+      type: tags
+    values:
+      layout: tag
   - scope:
       path: ""
     values:
