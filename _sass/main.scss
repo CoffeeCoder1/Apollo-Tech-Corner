@@ -2,7 +2,12 @@ body {
 	font-family: 'Noto Serif', serif;
 }
 
-h1, h2, h3, h4, h5, .site-title, .site-nav {
+h1, h2, h3, h4, h5, .site-title {
 	font-family: 'Inconsolata', monospace;
 	font-weight: 300;
+}
+
+.site-nav {
+	font-family: 'Inconsolata', monospace;
+	font-weight: 400;
 }
