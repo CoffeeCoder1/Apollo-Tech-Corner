@@ -8,6 +8,13 @@ title: Home
 		<li>
 			<h2><a href="{{ site.github.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 			<h4>{{ post.categories }}</h4>
+			<p>
+			{{ post.date | date_to_string }}
+			{% assign author = site.authors | where: 'name', post.author | first %}
+			{% if author %}
+			  - <a href="{{ site.github.baseurl }}{{ author.url }}">{{ author.name }}</a>
+			{% endif %}
+			</p>
 			{{ post.excerpt }}
 		</li>
 	{% endfor %}
