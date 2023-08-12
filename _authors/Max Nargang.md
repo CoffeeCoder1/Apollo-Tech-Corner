@@ -1,5 +1,6 @@
 ---
-name: CoffeeCoder1
+name: Max Nargang
+username: CoffeeDev
 alt-name: Apollo
 one-line-description: Creator and manager of this blog.
 ---

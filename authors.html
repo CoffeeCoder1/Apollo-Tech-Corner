@@ -6,7 +6,7 @@ title: Authors
 <ul>
 	{% for author in site.authors %}
 		<li>
-			<h2><a href="{{ site.github.baseurl }}{{ author.url }}">{{ author.name }}</a></h2>
+			<h2><a href="{{ site.github.baseurl }}{{ author.url }}">{{ author.name }} ({{ author.username }})</a></h2>
 			<p>{{ author.one-line-description | markdownify }}</p>
 		</li>
 	{% endfor %}
