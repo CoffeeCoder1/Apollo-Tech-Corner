@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta content="{{ page.title }}" property="og:title">
 		<meta content="{{ site.name }}" property="og:site_name">
-		<title>{% if page.layout == 'author' %}{{ page.name }}{% else %}{{ page.title }}{% endif %} - {{ site.name }}</title>
+		<title>{{ page.title }} - {{ site.name }}</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Noto+Sans+Mono:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -13,8 +13,6 @@
 			<meta content="{{ page.description }}" property="og:description">
 		{% elsif page.layout == 'post' %}
 			<meta content="{{ page.excerpt }}" property="og:description">
-		{% elsif page.layout == 'author' %}
-			<meta contents="{{ page.one-line-description }}" property="og:description">
 		{% endif %}
 		
 		{% if page.layout == 'post' %}
@@ -22,11 +20,6 @@
 			<meta contents="{{ page.date }}" property="article:published_time">
 			<meta contents="{{ page.author }}" property="article:author">
 			<meta contents="{{ page.tags }}" property="article:tag">
-		{% elsif page.layout == 'author' %}
-			<meta contents="profile" property="og:type">
-			<meta contents="{{ page.first_name }}" property="profile:first_name">
-			<meta contents="{{ page.last_name }}" property="profile:last_name">
-			<meta contents="{{ page.username }}" property="profile:username">
 		{% endif %}
 	</head>
 	<body>

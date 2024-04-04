@@ -2,8 +2,6 @@ plugins:
   - jekyll-feed
 
 collections:
-  authors:
-    output: true
   tags:
     output: true
     permalink: tag/:title/
@@ -11,11 +9,6 @@ collections:
 name: "Apollo Tech Corner"
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "posts"
@@ -31,3 +24,6 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+feed:
+  posts_limit: 1000
