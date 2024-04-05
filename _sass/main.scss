@@ -1,4 +1,19 @@
+$light-background: #eeeeee;
+$light-text: #036;
+$dark-background: #212121;
+$dark-text: #d2e1dd;
+
+@mixin theme-colors() {
+	@media (prefers-color-scheme: dark) {
+		background-color: $dark-background;
+		color: $dark-text;
+	}
+	background-color: $light-background;
+	color: $light-text;
+}
+
 body {
+	@include theme-colors();
 	font-family: 'Noto Serif', serif;
 }
 
