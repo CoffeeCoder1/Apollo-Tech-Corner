@@ -9,7 +9,7 @@ layout: default
 Tags:
 {% for tag in site.tags %}
 	{% if page.tags contains tag.name or tag.name == page.tags %}
-		<a href="{{ site.url }}{{ site.baseurl }}{{ tag.url }}">{{ tag.name }}</a>
+		<a href="{{ site.github.baseurl }}{{ tag.url }}">{{ tag.name }}</a>
 	{% endif %}
 {% endfor %}
 </span>
