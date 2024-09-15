@@ -1,18 +1,8 @@
 ---
 title: Home
-description: My weblog for various technology things.
+description: A lil' website for a lil' fox
 ---
-<h1>Latest Posts</h1>
-
-<ul>
-	{% for post in site.posts %}
-		<li>
-			<h2><a href="{{ site.github.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-			<h4>{{ post.categories }}</h4>
-			<p>
-			{{ post.date | date_to_string }}
-			</p>
-			{{ post.excerpt }}
-		</li>
-	{% endfor %}
-</ul>
+<img src="{{ site.baseurl }}/assets/img/apollo_icon.svg"
+	width="200em"
+	height="200em"
+	style="border-radius: 100%; background-color: #0063b9;"/>
