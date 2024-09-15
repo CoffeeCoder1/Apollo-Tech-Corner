@@ -1,7 +1,9 @@
-$light-background: #eeeeee;
-$light-text: #036;
-$dark-background: #212121;
-$dark-text: #d2e1dd;
+$light-background: #d2fff6;
+$light-text: #00396b;
+$light-highlight: #a01dff;
+$dark-background: #00396b;
+$dark-text: #d2fff6;
+$dark-highlight: #1bff8a;
 
 @mixin theme-colors() {
 	@media (prefers-color-scheme: dark) {
@@ -10,6 +12,20 @@ $dark-text: #d2e1dd;
 	}
 	background-color: $light-background;
 	color: $light-text;
+}
+
+@mixin highlight-color() {
+	@media (prefers-color-scheme: dark) {
+		color: $dark-highlight;
+	}
+	color: $light-highlight;
+}
+
+@mixin link-color() {
+	@media (prefers-color-scheme: dark) {
+		color: $dark-highlight;
+	}
+	color: $light-highlight;
 }
 
 body {
@@ -22,9 +38,23 @@ h1, h2, h3, h4, h5, .site-title {
 	font-weight: 300;
 }
 
+a {
+	@include link-color();
+}
+
 .site-nav {
 	font-family: 'Inconsolata', monospace;
 	font-weight: 400;
+}
+
+.site-nav-link-inactive {
+	color: gray;
+	font-weight: 100;
+}
+
+.site-nav-link-active {
+	@include highlight-color();
+	//font-weight: bold;
 }
 
 .footer {
