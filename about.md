@@ -1,9 +1,8 @@
 ---
 title: About
-description: About my weblog.
+description: About me
 ---
-# About the weblog
 
-A while ago, it was suggested by a friend that I should start a blog to document my projects and stuff, and I thought 'that's not a bad idea'. So, I created this.
+# A bit about me
 
-If you are having issues, report them [here](https://github.com/CoffeeCoder1/Apollo-Tech-Corner/issues).
+just a silly little fops on the internet
