@@ -18,3 +18,5 @@ description: Where you can find me in various places.
 [![Twitch](http://img.shields.io/badge/Twitch-ApolloFops-purple?style=flat-square&logo=twitch)](https://twitch.tv/ApolloFops)
 
 [![YouTube](http://img.shields.io/badge/YouTube-%40ApolloFops-f00000?style=flat-square&logo=youtube)](https://youtube.com/@ApolloFops)
+
+[![PeerTube](https://img.shields.io/badge/PeerTube-apollo%40makertube.net-orange?style=flat-square&logo=peertube)](https://makertube.net/a/apollo)
