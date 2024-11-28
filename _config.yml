@@ -2,6 +2,10 @@ plugins:
   - jekyll-feed
   - jekyll-favicon
 
+exclude:
+  - "Dockerfile"
+  - "docker-compose.yml"
+
 collections:
   tags:
     output: true
