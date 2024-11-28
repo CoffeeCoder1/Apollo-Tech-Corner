@@ -15,6 +15,8 @@ description: Where you can find me in various places.
 
 [![Bandcamp](https://img.shields.io/badge/Bandcamp-apollo--fops-blue?style=flat-square&logo=bandcamp)](https://apollo-fops.bandcamp.com)
 
+[![Flickr](https://img.shields.io/badge/Flickr-ApolloFops-blue?style=flat-square&logo=flickr)](https://flickr.com/people/199323162@N04)
+
 [![Twitch](http://img.shields.io/badge/Twitch-ApolloFops-purple?style=flat-square&logo=twitch)](https://twitch.tv/ApolloFops)
 
 [![YouTube](http://img.shields.io/badge/YouTube-%40ApolloFops-f00000?style=flat-square&logo=youtube)](https://youtube.com/@ApolloFops)
