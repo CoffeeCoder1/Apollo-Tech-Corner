@@ -10,27 +10,36 @@ $dark-highlight: #1bff8a;
 		background-color: $dark-background;
 		color: $dark-text;
 	}
-	background-color: $light-background;
-	color: $light-text;
+
+	& {
+		background-color: $light-background;
+		color: $light-text;
+	}
 }
 
 @mixin highlight-color() {
 	@media (prefers-color-scheme: dark) {
 		color: $dark-highlight;
 	}
-	color: $light-highlight;
+
+	& {
+		color: $light-highlight;
+	}
 }
 
 @mixin link-color() {
 	@media (prefers-color-scheme: dark) {
 		color: $dark-highlight;
 	}
-	color: $light-highlight;
+
+	& {
+		color: $light-highlight;
+	}
 }
 
 body {
-	@include theme-colors();
 	font-family: 'Noto Serif', serif;
+	@include theme-colors();
 }
 
 h1, h2, h3, h4, h5, .site-title {
