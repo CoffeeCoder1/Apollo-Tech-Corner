@@ -2,7 +2,7 @@
 <nav>
 	<b>{{ site.name }}</b>
 	{% for item in site.data.navigation %}
-		<a href="{{ site.github.baseurl }}{{ item.link }}" style="text-decoration: none;" class="{% if page.url == item.link %}site-nav-link-active{% else %}site-nav-link-inactive{% endif %}">
+		<a href="{{ site.baseurl }}{{ item.link }}" style="text-decoration: none;" class="{% if page.url == item.link %}site-nav-link-active{% else %}site-nav-link-inactive{% endif %}">
 			{{ item.name }}
 		</a>
 	{% endfor %}

@@ -9,14 +9,14 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Noto+Sans+Mono:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="{{ site.github.baseurl }}/assets/css/styles.css">
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
 		<meta name="darkreader-lock">
 		{% if page.description %}
 			<meta content="{{ page.description }}" property="og:description">
 		{% elsif page.layout == 'post' %}
 			<meta content="{{ page.excerpt }}" property="og:description">
 		{% endif %}
-		
+
 		{% if page.layout == 'post' %}
 			<meta contents="article" property="og:type">
 			<meta contents="{{ page.date }}" property="article:published_time">
