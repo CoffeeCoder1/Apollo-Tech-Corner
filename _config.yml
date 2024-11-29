@@ -19,7 +19,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink: /:categories/:title:output_ext
+      permalink: /news/:categories/:title:output_ext
   - scope:
       path: ""
       type: tags
