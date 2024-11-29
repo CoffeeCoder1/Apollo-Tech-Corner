@@ -22,3 +22,5 @@ description: Where you can find me in various places.
 [![YouTube](https://img.shields.io/badge/YouTube-%40ApolloFops-f00000?style=flat-square&logo=youtube)](https://youtube.com/@ApolloFops)
 
 [![PeerTube](https://img.shields.io/badge/PeerTube-apollo%40makertube.net-orange?style=flat-square&logo=peertube)](https://makertube.net/a/apollo)
+
+[![VRChat](https://img.shields.io/badge/VRChat-ApolloFops-blue?style=flat-square&logo=vrchat)](https://vrch.at/usr_991414b8-7fd2-4327-b801-97818c043244)
