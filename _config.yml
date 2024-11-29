@@ -12,6 +12,7 @@ collections:
     permalink: tag/:title/
 
 name: "Apollo Tech Corner"
+url: "https://apollofops.net"
 
 defaults:
   - scope:
