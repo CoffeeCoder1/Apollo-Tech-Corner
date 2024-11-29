@@ -6,34 +6,34 @@ $dark-text: #d2fff6;
 $dark-highlight: #1bff8a;
 
 @mixin theme-colors() {
-	@media (prefers-color-scheme: dark) {
-		background-color: $dark-background;
-		color: $dark-text;
-	}
-
 	& {
 		background-color: $light-background;
 		color: $light-text;
 	}
+
+	@media (prefers-color-scheme: dark) {
+		background-color: $dark-background;
+		color: $dark-text;
+	}
 }
 
 @mixin highlight-color() {
-	@media (prefers-color-scheme: dark) {
-		color: $dark-highlight;
-	}
-
 	& {
 		color: $light-highlight;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		color: $dark-highlight;
 	}
 }
 
 @mixin link-color() {
-	@media (prefers-color-scheme: dark) {
-		color: $dark-highlight;
-	}
-
 	& {
 		color: $light-highlight;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		color: $dark-highlight;
 	}
 }
 
