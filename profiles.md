@@ -11,7 +11,7 @@ description: Where you can find me in various places.
 
 [![GitLab](https://img.shields.io/badge/GitLab-CoffeeCoder1-orange?style=flat-square&logo=gitlab)](https://gitlab.com/CoffeeCoder1)
 
-[![Mastodon](https://img.shields.io/badge/Mastodon-%40Apollo%40furry.engineer-%236364ff?style=flat-square&logo=mastodon)](https://furry.engineer/@Apollo)
+[![Mastodon](https://img.shields.io/badge/Mastodon-%40apollo%40furry.engineer-%236364ff?style=flat-square&logo=mastodon)](https://furry.engineer/@apollo)
 
 [![Bandcamp](https://img.shields.io/badge/Bandcamp-apollo--fops-blue?style=flat-square&logo=bandcamp)](https://apollo-fops.bandcamp.com)
 
