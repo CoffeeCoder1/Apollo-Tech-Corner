@@ -11,6 +11,8 @@ description: Where you can find me in various places.
 
 [![Discord](https://img.shields.io/badge/Discord-apollofops-5865F2?style=flat-square&logo=discord)](https://discord.com/users/1209021574997614642)
 
+[![Telegram](https://img.shields.io/badge/Telegram-apollofops-blue?style=flat-square&logo=telegram)](https://t.me/apollofops)
+
 ## Programming
 
 [![GitHub](https://img.shields.io/badge/GitHub-CoffeeCoder1-lightgrey?style=flat-square&logo=github)](https://github.com/CoffeeCoder1)
