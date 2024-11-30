@@ -3,7 +3,7 @@ FROM ruby:3.3.0-alpine3.19
 ENV SETUPDIR=/setup
 WORKDIR ${SETUPDIR}
 ARG GEMFILE_DIR=.
-COPY $GEMFILE_DIR/Gemfile* $GEMFILE_DIR/packages* .
+COPY $GEMFILE_DIR/Gemfile* .
 
 # Install build dependencies
 RUN set -eux; \
@@ -15,13 +15,7 @@ RUN set -eux; \
 # Install Bundler
 RUN set -eux; gem install bundler
 
-# Install extra packages if needed
-RUN set -eux; \
-	if [ -e packages ]; then \
-		cat packages | apk add --no-cache --virtual extra-pkgs; \
-	fi
-
-# Insatll ImageMagick and librsvg
+# Install ImageMagick and librsvg
 RUN set -eux; apk add imagemagick librsvg
 
 # Install gems from `Gemfile` via Bundler
