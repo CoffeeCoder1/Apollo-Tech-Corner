@@ -7,6 +7,10 @@ description: Where you can find me in various places.
 
 [![Ko-Fi](https://img.shields.io/badge/Ko--Fi-ApolloFops-%23ff5a5f?style=flat-square&logo=Ko-Fi)](https://ko-fi.com/ApolloFops)
 
+## Messaging
+
+[![Discord](https://img.shields.io/badge/Discord-apollofops-5865F2?style=flat-square&logo=discord)](https://discord.com/users/1209021574997614642)
+
 ## Programming
 
 [![GitHub](https://img.shields.io/badge/GitHub-CoffeeCoder1-lightgrey?style=flat-square&logo=github)](https://github.com/CoffeeCoder1)
