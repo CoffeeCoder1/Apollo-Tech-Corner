@@ -2,6 +2,11 @@
 title: Profiles
 description: Where you can find me in various places.
 ---
+<style>
+img {
+	vertical-align: bottom;
+}
+</style>
 
 # Profiles
 
