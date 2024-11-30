@@ -22,6 +22,7 @@ description: Where you can find me in various places.
 ## Social
 
 [![Mastodon](https://img.shields.io/badge/Mastodon-%40apollo%40furry.engineer-%236364ff?style=flat-square&logo=mastodon)](https://furry.engineer/@apollo)
+(bridged to [![BlueSky](https://img.shields.io/badge/BlueSky-%40apollofops.net-blue?style=flat-square&logo=bluesky)](https://bsky.app/profile/apollofops.net))
 
 [![VRChat](https://img.shields.io/badge/VRChat-ApolloFops-blue?style=flat-square&logo=vrchat)](https://vrch.at/usr_991414b8-7fd2-4327-b801-97818c043244)
 
