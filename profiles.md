@@ -33,7 +33,9 @@ img {
 
 ## Music
 
-[![Bandcamp](https://img.shields.io/badge/Bandcamp-apollo--fops-blue?style=flat-square&logo=bandcamp)](https://apollo-fops.bandcamp.com)
+[![Bandcamp Artist](https://img.shields.io/badge/Bandcamp%20Artist-apollo--fops-blue?style=flat-square&logo=bandcamp)](https://apollo-fops.bandcamp.com)
+
+[![Bandcamp Fan](https://img.shields.io/badge/Bandcamp%20Fan-apollofops-blue?style=flat-square&logo=bandcamp)](https://bandcamp.com/apollofops)
 
 ## Photography
 
