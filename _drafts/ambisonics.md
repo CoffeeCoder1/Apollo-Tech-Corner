@@ -1,7 +1,7 @@
 ---
 author: Apollo
 category: Audio
-tags: Spatial Audio
+tag: Spatial Audio
 ---
 Spatial audio's pretty cool, but the largest format for it, Dolby Atmos[^1], is
 proprietary and is quite difficult to work with. Since Atmos is a proprietary
