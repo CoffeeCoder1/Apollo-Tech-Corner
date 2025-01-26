@@ -5,7 +5,7 @@ tag: Spatial Audio
 ---
 Spatial audio's pretty cool, but the largest format for it, Dolby Atmos[^1], is
 proprietary and is quite difficult to work with. Since Atmos is a proprietary
-black box, it's impossible to design hardware or software to use it without
+black box, it's impossible to design hardware or software that uses it without
 paying a large sum of money, and, since it's so complicated, Atmos-enabled
 hardware needs powerful processing inside to be able to decode the audio. While
 there are some proposed protocols that fix the problem of licensing costs, only
