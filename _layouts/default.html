@@ -16,7 +16,7 @@
 		{% if page.description %}
 			<meta content="{{ page.description }}" property="og:description">
 		{% elsif page.layout == 'post' %}
-			<meta content="{{ page.excerpt }}" property="og:description">
+			<meta content="{{ page.excerpt | escape }}" property="og:description">
 		{% endif %}
 
 		{% if page.layout == 'post' %}
