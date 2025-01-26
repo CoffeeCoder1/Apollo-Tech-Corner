@@ -1,0 +1,7 @@
+<!-- A preview of a blog post. -->
+<h2 class="post-title"><a href="{{ site.baseurl }}{{ include.post.url }}">{{ post.title }}</a></h2>
+<div class="post-categories">{{ include.post.categories }}</div>
+<span class="post-date">{{ include.post.date | date_to_string }}</span>
+<p>
+{{ include.post.excerpt }}
+</p>
