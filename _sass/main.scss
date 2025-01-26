@@ -42,7 +42,7 @@ body {
 	@include theme-colors();
 }
 
-h1, h2, h3, h4, h5, .site-title {
+h1, h2, h3, h4, h5, .site-title, .post-categories {
 	font-family: 'Inconsolata', monospace;
 	font-weight: 300;
 }
@@ -69,4 +69,18 @@ a {
 .footer {
 	font-family: 'Noto Sans Mono', monospace;
 	font-size: 11px;
+}
+
+.post-title {
+	margin-bottom: 0.1em;
+}
+
+.post-categories {
+	font-size: 1.25em;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+hr.thin {
+	border-top: 10px;
 }

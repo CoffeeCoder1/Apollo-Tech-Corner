@@ -7,11 +7,9 @@ description: My weblog for various technology things.
 <ul>
 	{% for post in site.posts %}
 		<li>
-			<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-			<h4>{{ post.categories }}</h4>
-			<p>
-			{{ post.date | date_to_string }}
-			</p>
+			<h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+			<div class="post-categories">{{ post.categories }}</div>
+			<span class="post-date">{{ post.date | date_to_string }}</span>
 			{{ post.excerpt }}
 		</li>
 	{% endfor %}
