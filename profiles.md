@@ -18,6 +18,8 @@ img {
 
 [![Telegram](https://img.shields.io/badge/Telegram-apollofops-blue?style=flat-square&logo=telegram)](https://t.me/apollofops)
 
+[![Matrix](https://img.shields.io/badge/Matrix-%40apollo:apollofops.net-%230dbd8b?style=flat-square&logo=matrix)](https://matrix.to/#/@apollo:apollofops.net)
+
 ## Programming
 
 [![GitHub](https://img.shields.io/badge/GitHub-CoffeeCoder1-lightgrey?style=flat-square&logo=github)](https://github.com/CoffeeCoder1)
