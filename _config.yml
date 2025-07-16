@@ -33,3 +33,6 @@ defaults:
 
 feed:
   posts_limit: 1000
+
+favicon:
+  source: favicon.png

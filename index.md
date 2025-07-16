@@ -2,10 +2,9 @@
 title: Home
 description: A lil' website for a lil' fox
 ---
-<img src="{{ site.baseurl }}/assets/img/apollo_icon.svg"
+<img src="{{ site.baseurl }}/assets/img/apollo_icon_river.png"
 	width="200em"
-	height="200em"
-	style="border-radius: 100%; background-color: #0063b9;"/>
+	height="200em" />
 
 haii! i'm a fops :3
 
