@@ -1,0 +1,14 @@
+---
+title: Portfolio
+description: A list of shows and other things I've been involved in.
+---
+
+<h1>Shows</h1>
+
+<ul>
+	{% for show in site.shows %}
+		<li>
+			{% include show_preview.html show=show %}
+		</li>
+	{% endfor %}
+</ul>

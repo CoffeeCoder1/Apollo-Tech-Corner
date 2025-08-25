@@ -10,6 +10,9 @@ collections:
   tags:
     output: true
     permalink: tag/:title/
+  shows:
+    output: true
+    permalink: show/:title.html
 
 name: "Apollo Tech Corner"
 url: "https://apollofops.net"
@@ -26,6 +29,11 @@ defaults:
       type: tags
     values:
       layout: tag
+  - scope:
+      path: ""
+      type: shows
+    values:
+      layout: show
   - scope:
       path: ""
     values:
