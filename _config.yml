@@ -12,7 +12,7 @@ collections:
     permalink: tag/:title/
   shows:
     output: true
-    permalink: show/:title.html
+    permalink: show/:title:output_ext
 
 name: "Apollo Tech Corner"
 url: "https://apollofops.net"
