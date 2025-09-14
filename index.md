@@ -19,5 +19,8 @@ my best to adhere to the schedule on my twitch page, and i add in some bonus
 streams sometimes too). feel free to join in if you wanna watch me fail at
 playing video games (and also do whatever else i feel like doing).
 
+oh also if you find any of my stuff interesting, join my [discord server]({{
+site.discord_invite }})! theres a bunch of cool people there!
+
 if you happen to want to contact me, you can send an e-mail to apollo [at] {this
 domain} or message me through one of [these services]({{ site.baseurl }}/profiles.html#messaging).

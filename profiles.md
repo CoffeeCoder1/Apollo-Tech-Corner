@@ -21,7 +21,7 @@ me a friend request or whatever with zero context), I'm probably gonna just
 block you and move on with my day because I get tons of spam messages with the
 same format.
 
-[![Discord](https://shields.apollofops.net/badge/Discord-apollofops-5865F2?style=flat-square&logo=discord)](https://discord.com/users/1209021574997614642)
+[![Discord](https://shields.apollofops.net/badge/Discord-apollofops-5865F2?style=flat-square&logo=discord)](https://discord.com/users/1209021574997614642) (I also have a [Discord server]({{ site.discord_invite }}))
 
 [![Telegram](https://shields.apollofops.net/badge/Telegram-apollofops-blue?style=flat-square&logo=telegram)](https://t.me/apollofops)
 
