@@ -20,4 +20,4 @@ streams sometimes too). feel free to join in if you wanna watch me fail at
 playing video games (and also do whatever else i feel like doing).
 
 if you happen to want to contact me, you can send an e-mail to apollo [at] {this
-domain} or message me through one of [these services]({{ site.baseurl }}/profiles.html).
+domain} or message me through one of [these services]({{ site.baseurl }}/profiles.html#messaging).
