@@ -15,6 +15,12 @@ img {
 
 ## Messaging
 
+If you want to contact me, send me a message that actually describes what you
+need! If you just send me a "Hey! How are you doing?" (or, even worse, just send
+me a friend request or whatever with zero context), I'm probably gonna just
+block you and move on with my day because I get tons of spam messages with the
+same format.
+
 [![Discord](https://shields.apollofops.net/badge/Discord-apollofops-5865F2?style=flat-square&logo=discord)](https://discord.com/users/1209021574997614642)
 
 [![Telegram](https://shields.apollofops.net/badge/Telegram-apollofops-blue?style=flat-square&logo=telegram)](https://t.me/apollofops)
