@@ -59,3 +59,10 @@ same format.
 [![PeerTube](https://shields.apollofops.net/badge/PeerTube-apollo%40makertube.net-orange?style=flat-square&logo=peertube)](https://makertube.net/a/apollo)
 
 [![YouTube](https://shields.apollofops.net/badge/YouTube-%40ApolloFops-f00000?style=flat-square&logo=youtube)](https://youtube.com/@ApolloFops)
+
+I don't really like these as much and, as a result, I mostly just repost things
+to them, but I'll link them here anyway just so you know they're official.
+
+[![Instagram](https://shields.apollofops.net/badge/Instagram-%40apollofops-e4405f?style=flat-square&logo=instagram)](https://www.instagram.com/apollofops)
+
+[![TikTok](https://shields.apollofops.net/badge/TikTok-%40apollofops-black?style=flat-square&logo=tiktok)](https://www.tiktok.com/@apollofops)
